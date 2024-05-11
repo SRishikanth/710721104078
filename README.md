@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Average Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Average Calculator</h1>
+  <div id="message"></div>
+  <button id="get-average">Get Average</button>
+  <br>
+  <h2>Add a Number</h2>
+  <form id="add-number-form">
+    <label for="number-id">Number ID:</label>
+    <input type="text" id="number-id" name="number-id" required>
+    <br>
+    <label for="number-value">Number Value:</label>
+    <input type="number" id="number-value" name="number-value" required>
+    <br>
+    <button type="submit">Add Number</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
